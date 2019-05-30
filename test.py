@@ -7,3 +7,5 @@ A='1934567'
 print(A[1::2])
 
 print("1" + "2")
+
+print("CollyOP")
