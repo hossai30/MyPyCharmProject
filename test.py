@@ -8,4 +8,7 @@ print(A[1::2])
 
 print("1" + "2")
 
-print("CollyOP")
+print(str(1)+str(1))
+
+tuple1=("A","B","C" )
+print(tuple1[-1])
