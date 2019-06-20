@@ -1,4 +1,4 @@
-from typing import List
+#Author: Sarah
 
 dates = [1982, 1980, 1973, 2000]
 
