@@ -1,4 +1,4 @@
-#Author: Sarah
+#Author: Sarah Hossain
 
 dates = [1982, 1980, 1973, 2000]
 
