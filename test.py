@@ -1,14 +1,22 @@
-import  pandas as pd
+from typing import List
 
-name = "Lizz"
-print(name[0:2])
+dates = [1982, 1980, 1973, 2000]
 
-A='1934567'
-print(A[1::2])
+i = 0
+year = 0
 
-print("1" + "2")
+while(year != 1973):
+    year = dates[i]
+    i = i + 1
+    print(year)
 
-print(str(1)+str(1))
+print("It took ", i ,"repetitions to get out of loop.")
 
-tuple1=("A","B","C" )
-print(tuple1[-1])
+for i in range(1,5):
+    if (i!=2):
+        print(i)
+
+
+B = [1, 7, 5, 3, 2]
+B.sort()
+print(B)
