@@ -1,5 +1,6 @@
 #Author: Sarah Hossain
 
+import numpy as np
 dates = [1982, 1980, 1973, 2000]
 
 i = 0
@@ -20,3 +21,8 @@ for i in range(1,5):
 B = [1, 7, 5, 3, 2]
 B.sort()
 print(B)
+
+X=np.array([[1,0],[0,1]])
+Y=np.array([[2,1],[1,2]])
+Z=np.dot(X,Y)
+print(Z)
