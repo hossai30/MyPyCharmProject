@@ -39,3 +39,5 @@ plt.title("Year vs Population in Bulgaria")
 plt.xlabel("Year")
 plt.ylabel("Total Population")
 plt.show()
+
+
