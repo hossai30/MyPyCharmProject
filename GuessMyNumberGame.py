@@ -1,7 +1,7 @@
 import random
 print ("Welcome to guess the number game.\n")
 guess = int (input ("Please enter your guess: "))
-
+# TODO: Think of using break and continue
 number = random.randint(1, 6)
 
 while guess != number:
